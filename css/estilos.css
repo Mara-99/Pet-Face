@@ -1,0 +1,137 @@
+/* NUESTROS ESTILOS */
+
+body {
+	background-color: #6D8299;
+}
+
+
+/* seccion navbar */
+
+#contenedor-boton {
+  padding-left: 60%; }
+
+
+
+/* seccion carousel */
+
+.carousel {
+	margin-bottom: 100px;
+}
+
+.carousel-caption .banner {
+	font-family: "Dosis", sans-serif;
+	font-size: 80px;
+	word-spacing: 500%;
+}
+
+.carousel-caption #titulo-pagina {
+	font-family: "Anton", sans-serif;
+	font-weight: 200px;
+	font-size: 100px;
+	word-spacing: 500%;
+}
+
+
+/* seccion main */
+main {
+	padding-top: 50px;
+}
+
+main>#contenidoGenerado {
+	padding-left: 100px;
+	padding-right: 100px;
+	justify-content: center;
+}
+
+main .card-deck {
+	padding-bottom: 40px;
+}
+
+main .card-deck {
+	margin: 5% 0%;
+}
+
+main .card-deck .div-boton-comprar {
+	padding-left: 50%;
+}
+
+main .card-deck .rating {
+	padding-left: 0%;
+}
+
+@media (max-width: 700px) {
+	.card-body {
+		padding: 0 1rem 1rem 1rem;
+	}
+
+	.card-top {
+		padding: 0.7rem 1rem;
+	}
+
+	#titulo-pagina {
+		display: inline;
+		font-family: "Anton", sans-serif;
+		font-weight: 50px;
+		font-size: 30px;
+		word-spacing: 500%;
+	}
+
+	.banner {
+		font-family: "Dosis", sans-serif;
+		font-size: 30px;
+		word-spacing: 500%;
+	}
+}
+
+
+/* seccion footer */
+
+#footer {
+  text-align: center;
+  padding: 100px; 
+  background-color: #316B83;
+}
+  #footer .social-icon {
+    margin: 20px 10px;
+    color: black;
+ }
+  #footer p {
+    color: black;  }
+
+
+/* Formmulario de ingreso*/
+#form {
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    width: 500px;
+    height: auto;
+    background-color: #316B83;
+    padding: 35px;
+    color: rgba(3, 3, 3, 0.788);
+    font-family: 'Alegreya Sans', sans-serif;
+    border-radius: 10px;  
+    text-align: center;
+    	
+}
+
+input, .btn-green {
+    padding: 15px;
+    border-radius: 5px;
+    outline: 5px;
+    border: solid 1px #D5BFBF ;
+    width: 300px;
+    
+}
+
+.btn-green{
+    color: black;
+    background-color:  #D5BFBF;
+}
+
+#titulo {
+    font-family: monospace;
+    color: #D5BFBF;
+}
+
+

@@ -1,2 +1,2 @@
-# Pet-Face
-Este es el repositorio final hasta la fecha 17/10
+# face_pets
+a really sweet site about friendly pets 🐱‍👓🐱‍👤🐾
